@@ -19,7 +19,6 @@
 
 ### **< SUBSECTION >**
 
-
 <br/>
 
 ## Section 2: < SECTION NAME >
