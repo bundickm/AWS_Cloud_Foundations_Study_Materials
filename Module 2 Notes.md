@@ -3,6 +3,7 @@
 [Slides](http://d8rg5deuq9171.cloudfront.net/handouts/Slides/AcademyCloudFoundations_Module_02.pdf)
 
 ## Objectives / Topics
+
 - Explain the AWS pricing philosophy
 - Recognize fundamental pricing characteristics
 - Indicate the elements of total cost of ownership
@@ -15,6 +16,7 @@
 <br/>
 
 ## Labs / Activities
+
 - [Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)
 - [Cost Calculator Activity](http://d8rg5deuq9171.cloudfront.net/handouts/Activities/Module%202%20Activity%20-%20Total%20Cost%20of%20Ownership.pdf) -- [Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html)
 - [Support Plans Scavenger Hunt](http://d8rg5deuq9171.cloudfront.net/handouts/Activities/Module%202%20Activity%20-%20Support%20Plan.pdf)
@@ -30,6 +32,7 @@
 3. Data Transfer - outbound transfers are aggregated and charged per GB, inbound transfers and data transfers between services in the same AWS Region typically have no charge
 
 ### **Paying for AWS**
+
 - Pay for what you use
 - Reserve and save up to 75% versus On-Demand
   - All Upfront Reserved Instance (AURI) -> Large Discount
@@ -60,6 +63,7 @@
 - Budget and build the business case for moving to the cloud
 
 ### **TCO Considerations**
+
 1. Server Costs
    - Hardware: Server, rack chassis power distribution units (PDUs), top-of-rack (TOR) switches, and maintenance
    - Software: Operating system (OS), virtualization licenses, and maintenance
@@ -143,4 +147,12 @@ AWS Support offers a range of plans that provide access to tools and expertise t
 
 Support response times vary based on plan and case severity. Basic offers no case support, all other support ranges from 24 hours to 15 minutes or less.
 
+<br/>
+
+---
+
+<br/>
+
 [Support Scavenger Hunt](http://d8rg5deuq9171.cloudfront.net/handouts/Activities/Module%202%20Activity%20-%20Support%20Plan.pdf)
+
+[Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)

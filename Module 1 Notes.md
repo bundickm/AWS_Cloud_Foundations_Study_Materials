@@ -12,6 +12,7 @@
 <br/>
 
 ## Labs / Activities
+
 - [Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)
 
 <br/>
@@ -124,3 +125,11 @@ Cloud computing can do almost anything the traditional IT can do.
      - Reporting and Analytics
      - Business Continuity / Disaster Recovery
      - IT Service Catalog
+
+<br/>
+
+---
+
+<br/>
+
+[Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)

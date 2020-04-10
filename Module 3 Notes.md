@@ -12,7 +12,7 @@
 ## Labs / Activities
 
 - [Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)
-- [Lab: AWS Management Console](https://labs.vocareum.com/main/main.php) -- [Labs Instructions](http://d8rg5deuq9171.cloudfront.net/handouts/Vocareum%20scripts/Lab%20X%20-%20Sandbox.pdf)
+- [Lab: AWS Management Console (Use Sandbox)](https://labs.vocareum.com/main/main.php) -- [Labs Instructions](http://d8rg5deuq9171.cloudfront.net/handouts/Vocareum%20scripts/Lab%20X%20-%20Sandbox.pdf)
 - [AWS Global Infrastructure Activity](http://d8rg5deuq9171.cloudfront.net/handouts/Activities/Module%203%20Activity%20-%20AWS%20Global%20Infrastructure.pdf)
 
 <br/>
@@ -138,6 +138,12 @@ AWS Infrastructure Features:
 
 <br/>
 
-[Lab: AWS Management Console](https://labs.vocareum.com/main/main.php) -- [Labs Instructions](http://d8rg5deuq9171.cloudfront.net/handouts/Vocareum%20scripts/Lab%20X%20-%20Sandbox.pdf)
+---
+
+<br/>
+
+[Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)
+
+[Lab: AWS Management Console (Use Sandbox)](https://labs.vocareum.com/main/main.php) -- [Labs Instructions](http://d8rg5deuq9171.cloudfront.net/handouts/Vocareum%20scripts/Lab%20X%20-%20Sandbox.pdf)
 
 [AWS Global Infrastructure Activity](http://d8rg5deuq9171.cloudfront.net/handouts/Activities/Module%203%20Activity%20-%20AWS%20Global%20Infrastructure.pdf)
