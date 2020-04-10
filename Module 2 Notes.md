@@ -16,8 +16,8 @@
 
 ## Labs / Activities
 - [Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)
-- [Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html)
-- Support Plans Scavenger Hunt
+- [Cost Calculator Activity](http://d8rg5deuq9171.cloudfront.net/handouts/Activities/Module%202%20Activity%20-%20Total%20Cost%20of%20Ownership.pdf) -- [Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html)
+- [Support Plans Scavenger Hunt](http://d8rg5deuq9171.cloudfront.net/handouts/Activities/Module%202%20Activity%20-%20Support%20Plan.pdf)
 
 <br/>
 
@@ -75,7 +75,7 @@
 4. IT Labor Costs
    - Server administration costs
 
-[Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html)
+[Cost Calculator Activity](http://d8rg5deuq9171.cloudfront.net/handouts/Activities/Module%202%20Activity%20-%20Total%20Cost%20of%20Ownership.pdf) -- [Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html)
 
 <br/>
 
@@ -142,3 +142,5 @@ AWS Support offers a range of plans that provide access to tools and expertise t
 - **Enterprise Support:** Customers that run business and mission-critical workloads
 
 Support response times vary based on plan and case severity. Basic offers no case support, all other support ranges from 24 hours to 15 minutes or less.
+
+[Support Scavenger Hunt](http://d8rg5deuq9171.cloudfront.net/handouts/Activities/Module%202%20Activity%20-%20Support%20Plan.pdf)

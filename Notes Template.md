@@ -1,6 +1,6 @@
 # Module <#> - < MODULE NAME >
 
-[Slides](<SLIDES LINK>)
+[Slides](SLIDES LINK)
 
 ## Objectives / Topics
 - 
@@ -13,14 +13,14 @@
 
 <br/>
 
-## Section 1: <SECTION NAME>
+## Section 1: < SECTION NAME >
 
 ### **< SUBSECTION >**
 
 
 <br/>
 
-## Section 2: <SECTION NAME>
+## Section 2: < SECTION NAME >
 
 ### **< SUBSECTION >**
 
