@@ -325,4 +325,6 @@ Amazon Elastic Kubernetes Service (Amazon EKS)
 
 [Build, Train, and Deploy a ML Model to SageMaker](https://aws.amazon.com/getting-started/tutorials/build-train-deploy-machine-learning-model-sagemaker/) --- [Supporting Notebook](https://github.com/austinlasseter/sagemaker_tutorials/blob/master/xgboost-tutorial.ipynb)
 
+[SageMaker Technical Deep Dive Playlist](https://www.youtube.com/playlist?list=PLhr1KZpdzukcOr_6j_zmSrvYnLUtgqsZz)
+
 [Deploy a Python App with Plotly Dash and Elastic Beanstalk](https://lambdaschool.zoom.us/rec/play/usZ_c7-rpjI3GdSc4wSDV6V4W429Jv-s13Ab_fIMnkizWnQFOgevMrVGZrC3U2z3x3Ncj9i5q8e3q_IH?continueMode=true&_x_zm_rtaid=36nX6fUIT0u2AWS4Hfv6Dg.1587074669552.4a38e847d19f1fd4fd48607050191196&_x_zm_rhtaid=342) --- [Accompanying Blog](https://medium.com/@austinlasseter/deploying-a-dash-app-with-elastic-beanstalk-console-27a834ebe91d)
