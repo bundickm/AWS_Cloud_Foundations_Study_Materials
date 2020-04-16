@@ -31,7 +31,7 @@
 
 **IP Address:** A unique numerical label assigned to each device connected to a computer network. IPv4 defines an IP address as a 32-bit number, but because of the growth of the Internet IPv6 was created, using 128 bits for the IP address.
 
-**Classless Inter-Domain Routing (CIDR):** a method for allocating IP addresses and IP routing. CIDR notation is a compact representation of an IP address and its associated routing prefix. The notation is constructed from an IP address, a slash ('/') character, and an integer. The integer is the count of leading 1 bits in the subnet mask. Larger values here indicate smaller networks. The maximum size of the network is given by the number of addresses that are possible with the remaining, least-significant bits below the prefix.
+**Classless Inter-Domain Routing (CIDR):** A method for allocating IP addresses and IP routing. CIDR notation is a compact representation of an IP address and its associated routing prefix. The notation is constructed from an IP address, a slash ('/') character, and an integer. The integer is the count of leading 1 bits in the subnet mask. Larger values here indicate smaller networks. The maximum size of the network is given by the number of addresses that are possible with the remaining, least-significant bits below the prefix.
 
 - Example: The IPv4 block 192.168.100.0/22 represents the 1024 IPv4 addresses from 192.168.100.0 to 192.168.103.255.
 
@@ -53,8 +53,10 @@
 
 - Enables you to provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define
 - Gives you control over your virtual networking resources, including: Selection of IP address range, creation of subnets, and configuration of route tables and network gateways
+- Closely resembles a traditional network that you would operate in your own data center, with the benefits of using the scalable infrastructure of AWS
 - Enables you to customize the network configurationfor your VPC
 - Enables you to use multiple layers of security
+- You can create a VPC that spans multiple Availability Zones
 
 ### **VPCs**
 
@@ -65,9 +67,9 @@
 
 ### **Subnets**
 
-- Range of IP addressesthat divide a VPC
+- Range of IP addresses that divide a VPC
 - Belong to a single Availability Zone
-- Classified as public or private
+- Classified as public (has route to the internet) or private (no internet)
 - CIDR blocks of subnets cannot overlap
 - Each CIDR block has 5 reserved addresses for: network address, internal communication, DNS resolution, future use, and network broadcast address
 
@@ -80,10 +82,11 @@
 
 ### **Routes and Route Tables**
 
-- A route table contains a set of rules (or routes) that you can configure to direct network traffic from your subnet.
-- Each route specifies a destination and a target.
-- By default, every route table contains a local route for communication within the VPC.
-- Each subnet must be associated with a single route table.
+-  The route table controls routing for the subnet
+- A route table contains a set of rules (or routes) that you can configure to direct network traffic from your subnet
+- Each route specifies a destination and a target
+- By default, every route table contains a local route for communication within the VPC
+- Each subnet must be associated with a single route table
 
 <br/>
 

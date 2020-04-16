@@ -37,6 +37,7 @@ Amazon EBS enables you to create individual storage volumes and attach them to a
 - HDD and SSD available
 - Volumes are automatically replicated within its Availability Zone
 - It can be backed up automatically to Amazon S3 through snapshots
+- Designed for resiliency - Annual Failure Rate (AFR) is between 0.1% and 1%
 - Uses include:
   - Boot volumes and storage for (Amazon EC2) instances
   - Data storage with a file system
@@ -178,3 +179,5 @@ You do not pay for
 <br/>
 
 [Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)
+
+[Setting Up a Static Website with an S3 Bucket](https://lambdaschool.zoom.us/rec/play/u5V-cOj7_DM3E4KWtQSDUPFwW466eKKs1SAZqfQKnU2wUiULOgDzYLtBZbMyyizc2UxkU8ofYXt0Yy4J?continueMode=true&_x_zm_rtaid=36nX6fUIT0u2AWS4Hfv6Dg.1587074669552.4a38e847d19f1fd4fd48607050191196&_x_zm_rhtaid=342) --- [Accompanying Blog](https://medium.com/@austinlasseter/how-to-host-a-static-website-on-an-amazon-s3-bucket-be25a613586a)

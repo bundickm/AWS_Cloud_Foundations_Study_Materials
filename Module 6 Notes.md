@@ -53,10 +53,13 @@ The optimal compute service or services that you use will depend on your use cas
 
 ### **Overview**
 
-- Provides virtual machines — referred to as EC2 instances — in the cloud.
-- Gives you full control over the guest operating system (Windows or Linux) on each instance.
-- You can launch instances of any size into an Availability Zone anywhere in the world with just a few clicks or a line of code, and they are ready in minutes. You can launch instances from Amazon Machine Images (AMIs)
+- Provides virtual machines — referred to as EC2 instances — in the cloud
+- Gives you full control over the guest operating system (Windows or Linux) on each instance
+- You can launch instances of any size into an Availability Zone anywhere in the world with just a few clicks or a line of code, and they are ready in minutes
+- Resizable compute capacity
+- You can launch instances from Amazon Machine Images (AMIs)
 - You can control traffic to and from instances
+- Provides tools to build failure resilient applications and isolate them from common failure scenarios
 
 ### **Launching an EC2 Instance**
 
@@ -71,10 +74,11 @@ These are the nine key decisions to make when you create an EC2 instance by usin
      - AWS Marketplace – Pre-configured templates from third parties
      - Community AMIs – AMIs shared by others; use at your own risk
 2. Select an Instance Type
+   - Optimized to fit different use cases
    - The instance type that you choose determines
-     - Memory(RAM)
-     - Processing power(CPU)
-     - Disk space and disk type(Storage)
+     - Memory (RAM)
+     - Processing power (CPU)
+     - Disk space and disk type (Storage)
      - Network performance
    - Instance type categories
      - General purpose
@@ -92,6 +96,7 @@ These are the nine key decisions to make when you create an EC2 instance by usin
 3. Specify Network Settings
    - Where should the instance be deployed? Identify the VPC and optionally the subnet
    - Should a public IP addressbe automatically assigned?
+   - You can have multiple networks, such as different ones for development, testing and production
 4. Attach IAM Role (optional)
    - Will software on the EC2 instance need to interact with other AWS services? If yes, attach an appropriate IAM Role. IAM Roles can be attached at any time, not just launch.
    - An AWS Identity and Access Management (IAM) role that is attached to an EC2 instance is kept in an instance profile.
@@ -118,16 +123,16 @@ These are the nine key decisions to make when you create an EC2 instance by usin
 7. Add Tags
    - Consists of a key and an optional value.
    - Tagging is how you can attach metadata to an EC2 instance
-   - Potential benefits of — Filtering, automation, cost allocation, and access control.
+   - Potential benefits: Filtering, automation, cost allocation, and access control.
 8. Security Group Settings
-   - A   security group is a set of firewall rules that control traffic to the instance.
-   - Create rules that specify the source and which ports that network communications can use.
-     - Specify the port number and the protocol (TPC, UDP, ICMP)
-     - Specify the source that is allowed to use the rule
+   - A security group is a set of firewall rules that control traffic to the instance
+   - When you launch an instance, you associate one or more security groups with it
+   - Create rules that specify the source, which ports that network communications can use and the protocol (TPC, UDP, ICMP)
+   - Modify the rules for a security group at any time; the new rules are automatically applied to all instances that are associated with the security group
 9. Identify or Create the Key Pair
-   - At instance launch, you specify an existing key pair or create a new key pair.
-   - A key pairconsists of a public key that AWS stores and a private key file that you store.
-   - It enables secure connections to the instance.
+   - At instance launch, you specify an existing key pair or create a new key pair
+   - A key pair consists of a public key that AWS stores and a private key file that you store
+   - It enables secure connections to the instance
    - For Windows AMIs – Use the private key to obtain the administrator password that you need to log in to your instance
    - For Linux AMIs – Use the private key to use SSH to securely connect to your instance
 
@@ -164,7 +169,7 @@ Spot Instances
 - Instances run as long as they are available and your bid is above the Spot Instance price.
 - They can be interrupted by AWS with a 2-minute notification
 - Interruption options include terminated, stopped or hibernated
-- Prices can be significantly less expensive compared to On-Demand 
+- Prices can be significantly less expensive compared to On-Demand
 
 Instances
 
@@ -223,7 +228,7 @@ Cost optimization is an ongoing process.
 
 ### **Container Basics**
 
-Containersare a method of operating system virtualization.
+Containers are a method of operating system virtualization.
 
 - Repeatable
 - Self-contained execution environments
@@ -235,7 +240,7 @@ Docker is a software platform that enables you to build, test, and deploy applic
 ### **Amazon Elastic Container Service (ECS)**
 
 - A highly scalable, fast, container management service
-- Key benefits 
+- Key benefits
   - Orchestrates the execution of Docker containers
   - Maintains and scales the fleet of nodes that run your containers
   - Removes the complexity of standing up the infrastructure
@@ -313,3 +318,11 @@ Amazon Elastic Kubernetes Service (Amazon EKS)
 <br/>
 
 [Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)
+
+[AWS Lambda Functions and Autoscaling Video](https://www.youtube.com/watch?v=CPCJAhYk2FE) --- [Walkthrough Instructions](https://docs.google.com/document/d/1K8XQhXQhNJSTlIM2FrO5pktcMRk382pjpdVmLjpSuqc/edit)
+
+[Build a Password-Protected Website with Lambda and CloudFront](https://lambdaschool.zoom.us/rec/play/65wqceygqj43TNDHswSDVKArW9S0L_-sgCdP__MPmU3mB3BQNAeuY7ARZ7NVRbyLAoLEU_duW_Sg6diU?continueMode=true&_x_zm_rtaid=36nX6fUIT0u2AWS4Hfv6Dg.1587074669552.4a38e847d19f1fd4fd48607050191196&_x_zm_rhtaid=342) --- [Accompanying Blog](https://medium.com/@austinlasseter/build-a-password-protected-website-using-aws-lambda-and-cloudfront-3743cc4d09b6)
+
+[Build, Train, and Deploy a ML Model to SageMaker](https://aws.amazon.com/getting-started/tutorials/build-train-deploy-machine-learning-model-sagemaker/) --- [Supporting Notebook](https://github.com/austinlasseter/sagemaker_tutorials/blob/master/xgboost-tutorial.ipynb)
+
+[Deploy a Python App with Plotly Dash and Elastic Beanstalk](https://lambdaschool.zoom.us/rec/play/usZ_c7-rpjI3GdSc4wSDV6V4W429Jv-s13Ab_fIMnkizWnQFOgevMrVGZrC3U2z3x3Ncj9i5q8e3q_IH?continueMode=true&_x_zm_rtaid=36nX6fUIT0u2AWS4Hfv6Dg.1587074669552.4a38e847d19f1fd4fd48607050191196&_x_zm_rhtaid=342) --- [Accompanying Blog](https://medium.com/@austinlasseter/deploying-a-dash-app-with-elastic-beanstalk-console-27a834ebe91d)

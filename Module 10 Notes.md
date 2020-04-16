@@ -77,3 +77,5 @@ Elastic Load Balancing distributes incoming application or network traffic acros
 [Lab: Scale and Load Balance Your Architecture](https://labs.vocareum.com/main) --- [Lab Instructions](https://labs.vocareum.com/main/main.php)
 
 [Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)
+
+[AWS Lambda Functions and Autoscaling Video](https://www.youtube.com/watch?v=CPCJAhYk2FE) --- [Walkthrough Instructions](https://docs.google.com/document/d/1K8XQhXQhNJSTlIM2FrO5pktcMRk382pjpdVmLjpSuqc/edit)

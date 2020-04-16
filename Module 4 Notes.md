@@ -65,7 +65,13 @@ Software as a service (SaaS)
 
 ## Section 2: Identity and Access Management (IAM)
 
-Use IAM to manage access to AWS resources. A resource is an entity in an AWS account that you can work with (Example resources: An Amazon EC2 instance or an Amazon S3 bucket).
+AWS Identity and Access Management (IAM) is a web service that enables Amazon Web Services (AWS) customers to manage users and user permissions in AWS. With IAM, you can centrally manage users, security credentials such as access keys, and permissions that control which AWS resources users can access.
+
+AWS Identity and Access Management (IAM) can be used to:
+
+- **Manage IAM Users and their access:** You can create Users and assign them individual security credentials (access keys, passwords, and multi-factor authentication devices). You can manage permissions to control which operations a User can perform.
+- **Manage IAM Roles and their permissions:** An IAM Role is similar to a User, in that it is an AWS identity with permission policies that determine what the identity can and cannot do in AWS. However, instead of being uniquely associated with one person, a Role is intended to be assumableby anyone who needs it.
+- **Manage federated users and their permissions:** You can enable identity federationto allow existing users in your enterprise to access the AWS Management Console, to call AWS APIs and to access resources, without the need to create an IAM User for each identity.
 
 ### **Essential Components**
 
@@ -89,18 +95,20 @@ Use IAM to manage access to AWS resources. A resource is an entity in an AWS acc
 - Permissions determine which resources and operations are allowed.
   - All permissions are implicitly denied by default.
   - If something is explicitly denied, it is never allowed.
-- Two Types of Policies
-  - Identity Based
-    - Attach a policy to any IAM entity - user, group, or role
-    - Policies specify actions that may or may not be performed by the entity
-    - Policies and entities have a many-to-many relationship
-  - Resource Based
-    - Attached to a resource (such as an S3 bucket)
-    - Specifies who has access to the resource and what actions they can perform on it
-    - The policies are inline only, not managed. An inline policy is assigned to just one User or Group. Inline Policies are typically used to apply permissions for one-off situations.
-    - Resource-based policies are supported only by some AWS services
+- Two Types of Policies:
+  1. Identity Based
+     - Attach a policy to any IAM entity - user, group, or role
+     - Policies specify actions that may or may not be performed by the entity
+     - Policies and entities have a many-to-many relationship
+     - When the policy is updated, the changes to the policy are immediately apply against all Users and Groups that are attached to the policy.
+  2. Resource Based
+     - Attached to a resource (such as an S3 bucket)
+     - Specifies who has access to the resource and what actions they can perform on it
+     - The policies are inline only, not managed. An inline policy is assigned to just one User or Group. Inline Policies are typically used to apply permissions for one-off situations.
+     - Resource-based policies are supported only by some AWS services
 
 **IAM Role:** Useful mechanism to grant a set of permissions for making AWS service requests.
+
 - Similar to an IAM user: Attach permissions policies to it
 - Different from an IAM user: Not uniquely associated with one person, intended to be assumable by a person, application, or service
 - Role provides temporary security credentials

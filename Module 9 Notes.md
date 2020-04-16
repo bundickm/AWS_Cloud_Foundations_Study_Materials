@@ -283,3 +283,5 @@ AWS Trusted Advisor is an online tool that provides real-time guidance to help y
 <br/>
 
 [Knowledge Check](https://www.aws.training/Details/Curriculum?transcriptid=-NscDQNnt0KwQEi-zYfB8Q2&id=43078#modules)
+
+[Making Your Environment Highly Available](https://lambdaschool.zoom.us/rec/play/vJYqJLz9qW83Ht2W5ASDV_NwW427J_-shHId8_dfnUyyASQEMQauYuRAYOVN2USEQO5XkzmRU_3hRFuc?continueMode=true&_x_zm_rtaid=36nX6fUIT0u2AWS4Hfv6Dg.1587074669552.4a38e847d19f1fd4fd48607050191196&_x_zm_rhtaid=342) --- [Password](https://lambdaschoolstudents.slack.com/archives/GUL2Y3H17/p1586917358295500) --- [Walkthrough Instructions](https://docs.google.com/document/d/1VWhsH47UVoHPL47KbgIcht0SnITa_dnWh2QTnoP1F2w/edit#)
