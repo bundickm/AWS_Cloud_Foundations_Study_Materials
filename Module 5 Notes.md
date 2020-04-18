@@ -63,7 +63,7 @@
 - Logically isolated from other VPCs
 - Dedicated to your AWS account
 - Belong to a single AWS Region and can span multiple Availability Zones
-- When you create a VPC, you assign it to an IPv4 or IPv6 CIDR block. You cannot change the address range after creation
+- When you create a VPC, you assign it to an IPv4 or IPv6 CIDR block. You cannot change the address range after creation.
 
 ### **Subnets**
 
@@ -82,7 +82,7 @@
 
 ### **Routes and Route Tables**
 
--  The route table controls routing for the subnet
+- The route table controls routing for the subnet
 - A route table contains a set of rules (or routes) that you can configure to direct network traffic from your subnet
 - Each route specifies a destination and a target
 - By default, every route table contains a local route for communication within the VPC
@@ -118,7 +118,7 @@ The account that owns the VPC shares one or more subnets with other accounts, ca
 
 ### **VPC Peering**
 
-Enables you to privately route traffic between two VPCs. Instances in either VPC can communicate with each other as if they were on the same network. You can create VPC peering connection between your own VPCs with a VPC in another AWS accounts, or between regions. 
+Enables you to privately route traffic between two VPCs. Instances in either VPC can communicate with each other as if they were on the same network. You can create VPC peering connection between your own VPCs with a VPC in another AWS accounts, or between regions.
 
 When you set up the VPC peering connection, you create rules in your route table to allow the VPCs to communicate with each other. VPC peering has some restrictions:
 
@@ -208,7 +208,7 @@ The topology of a Transit Gateway is a hub and spoke which reduces the number of
 
 ### **CloudFront Infrastructure**
 
-Edge locations – Network of data centers that CloudFront uses to serve popular content quickly to customers.
+Edge locations – A network of data centers that CloudFront uses to serve popular content quickly to customers.
 
 Regional edge cache – CloudFront location that caches content that is not popular enough to stay at an edge location. It is located between the origin server and the global edge location.
 

@@ -165,14 +165,14 @@ Dedicated Hosts
 Dedicated Instances
 
 - Instances that run in a VPC on hardware that is dedicated to a single customer.
+
 Spot Instances
+
 - Instances run as long as they are available and your bid is above the Spot Instance price.
 - They can be interrupted by AWS with a 2-minute notification
 - Interruption options include terminated, stopped or hibernated
 - Prices can be significantly less expensive compared to On-Demand
-
 Instances
-
 - Good choice when you have flexibility in when your applications can run.
 
 Reserved Instances
@@ -180,7 +180,9 @@ Reserved Instances
 - Full, partial, or no upfront payment for instance you reserve
 - Discount on hourly charge for that instance
 - 1-year or 3-year term
+
 Scheduled Reserved Instances
+
 - Purchase a capacity reservation that is always available on a recurring schedule you specify
 - 1-year term
 

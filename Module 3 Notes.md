@@ -26,7 +26,7 @@ The [AWS Global Infrastructure](https://infrastructure.aws/) is designed and bui
 An AWS Region is a geographical area.
 
 - Data replication across Regions is controlled by you.
-- Communicationbetween Regions uses AWS backbone network infrastructure.
+- Communication between Regions uses AWS backbone network infrastructure.
 - Each Region provides full redundancy and connectivity to the network.
 - A Region typically consists of two or more Availability Zones
 
@@ -77,47 +77,47 @@ AWS Infrastructure Features:
 
 #### AWS Storage Services
 
-- [Amazon Simple Storage Services (S3)](https://aws.amazon.com/s3/) - object storage service that offers industry-leading scalability, data availability, security, and performance.
-- [Amazon Elastic Block Storage (EBS)](https://aws.amazon.com/ebs) - an easy to use, high performance block storage service designed for use with Amazon Elastic Compute Cloud (EC2) for both throughput and transaction intensive workloads at any scale.
-- [Amazon Elastic File System (EFS)](https://aws.amazon.com/efs/) - a simple, scalable, fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources. 
-- [Amazon Simple Storage Service Glacier](https://aws.amazon.com/glacier/) - a secure, durable, and extremely low-cost Amazon S3 cloud storage classes for data archiving and long-term backup.
+- [Amazon Simple Storage Services (S3)](https://aws.amazon.com/s3/) - Object storage service that offers industry-leading scalability, data availability, security, and performance.
+- [Amazon Elastic Block Storage (EBS)](https://aws.amazon.com/ebs) - An easy to use, high performance block storage service designed for use with Amazon Elastic Compute Cloud (EC2) for both throughput and transaction intensive workloads at any scale.
+- [Amazon Elastic File System (EFS)](https://aws.amazon.com/efs/) - A simple, scalable, fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources. 
+- [Amazon Simple Storage Service Glacier](https://aws.amazon.com/glacier/) - A secure, durable, and extremely low-cost Amazon S3 cloud storage classes for data archiving and long-term backup.
 
 #### AWS Compute Services
 
-- [Amazon EC2](https://aws.amazon.com/ec2/) - a web service that provides secure, resizable compute capacity in the cloud.
-- [Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/) - helps to maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define.
-- [Amazon Elastic Container Services (ECS)](https://aws.amazon.com/ecs/) - a fully managed container orchestration service.
-- [Amazon EC2 Container Registry (ECR)](https://aws.amazon.com/ecr/) -  a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.
-- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.
-- [AWS Lambda](https://aws.amazon.com/lambda/) - lets you run code without provisioning or managing servers.
-- [Amazon Elastic Kubernetes Services (EKS)](https://aws.amazon.com/eks/) - a fully managed [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) service.
-- [AWS Fargate](https://aws.amazon.com/fargate/) - a serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
+- [Amazon EC2](https://aws.amazon.com/ec2/) - A web service that provides secure, resizable compute capacity in the cloud.
+- [Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/) - Helps to maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define.
+- [Amazon Elastic Container Services (ECS)](https://aws.amazon.com/ecs/) - A fully managed container orchestration service.
+- [Amazon EC2 Container Registry (ECR)](https://aws.amazon.com/ecr/) -  A fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.
+- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - An easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.
+- [AWS Lambda](https://aws.amazon.com/lambda/) - Lets you run code without provisioning or managing servers.
+- [Amazon Elastic Kubernetes Services (EKS)](https://aws.amazon.com/eks/) - A fully managed [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) service.
+- [AWS Fargate](https://aws.amazon.com/fargate/) - A serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
 
 #### AWS Database Services
 
-- [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/) - makes it easy to set up, operate, and scale a relational database in the cloud.
-- [Amazon Aurora](https://aws.amazon.com/rds/aurora/) -  a MySQL and PostgreSQL-compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases.
-- [Amazon Redshift](https://aws.amazon.com/redshift/) - a fully managed, petabyte-scale data warehouse service in the cloud.
-- [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) - a key-value and document database that delivers single-digit millisecond performance at any scale.
+- [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/) - Makes it easy to set up, operate, and scale a relational database in the cloud.
+- [Amazon Aurora](https://aws.amazon.com/rds/aurora/) - A MySQL and PostgreSQL compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases.
+- [Amazon Redshift](https://aws.amazon.com/redshift/) - A fully managed, petabyte-scale data warehouse service in the cloud.
+- [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) - A key value and document database that delivers single-digit millisecond performance at any scale.
 
 #### Networking and Content Delivery Services
 
-- [Amazon VPC](https://aws.amazon.com/vpc/) - lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.
-- [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/) - automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions.
-- [Amazon CloudFront](https://aws.amazon.com/cloudfront/) - a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
-- [AWS Transit Gateway](https://aws.amazon.com/transit-gateway/) - a service that enables customers to connect their Amazon Virtual Private Clouds (VPCs) and their on-premises networks to a single gateway.
-- [Amazon Route 53](https://aws.amazon.com/route53/) - a highly available and scalable cloud Domain Name System (DNS) web service.
-- [AWS Direct Connect](https://aws.amazon.com/directconnect/) - a cloud service solution that makes it easy to establish a dedicated network connection from your premises to AWS.
-- [AWS VPN](https://aws.amazon.com/vpn/) - lets you establish a secure and private encrypted tunnel from your network or device to the AWS global network.
+- [Amazon VPC](https://aws.amazon.com/vpc/) - Lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.
+- [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/) - Automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions.
+- [Amazon CloudFront](https://aws.amazon.com/cloudfront/) - A fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
+- [AWS Transit Gateway](https://aws.amazon.com/transit-gateway/) - A service that enables customers to connect their Amazon Virtual Private Clouds (VPCs) and their on-premises networks to a single gateway.
+- [Amazon Route 53](https://aws.amazon.com/route53/) - A highly available and scalable cloud Domain Name System (DNS) web service.
+- [AWS Direct Connect](https://aws.amazon.com/directconnect/) - A cloud service solution that makes it easy to establish a dedicated network connection from your premises to AWS.
+- [AWS VPN](https://aws.amazon.com/vpn/) - Lets you establish a secure and private encrypted tunnel from your network or device to the AWS global network.
 
 #### Security, Identity, and Compliance Services
 
-- [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) -  enables you to manage access to AWS services and resources securely.
+- [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) -  Enables you to manage access to AWS services and resources securely. You can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. IAM is a feature of your AWS account offered at no additional charge.
 - [AWS Organizations](https://aws.amazon.com/organizations/) - helps you centrally govern your environment as you grow and scale your workloads on AWS.
-- [Amazon Cognito](https://aws.amazon.com/cognito/) - lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily.
-- [AWS Artifact](https://aws.amazon.com/artifact/) - a central resource for compliance-related information that matters to you.
-- [AWS Key Management Service (KMS)](https://aws.amazon.com/kms/) - makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications.
-- [AWS Shield](https://aws.amazon.com/shield/) - a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS.
+- [Amazon Cognito](https://aws.amazon.com/cognito/) - Lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily.
+- [AWS Artifact](https://aws.amazon.com/artifact/) - A central resource for compliance related information that matters to you.
+- [AWS Key Management Service (KMS)](https://aws.amazon.com/kms/) - Makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications.
+- [AWS Shield](https://aws.amazon.com/shield/) - A managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS.
 
 #### Cost Management Services
 
@@ -127,14 +127,14 @@ AWS Infrastructure Features:
 
 #### AWS Management and Governance Services
 
-- [AWS Management Console](https://aws.amazon.com/console/) - brings AWS right to your computer or mobile phone with a secure, easy-to-access, web-based portal.
-- [AWS Config](https://aws.amazon.com/config/) - a service that enables you to assess, audit, and evaluate the configurations of your AWS resources.
-- [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) - a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), and IT managers.
+- [AWS Management Console](https://aws.amazon.com/console/) - A secure, easy-to-access, web-based portal for AWS.
+- [AWS Config](https://aws.amazon.com/config/) - A service that enables you to assess, audit, and evaluate the configurations of your AWS resources.
+- [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) - A monitoring and observability service that provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health. You can use it to detect anomalous behavior in your environments, set alarms, visualize logs and metrics side by side, take automated actions, troubleshoot issues, and discover insights.
 - [AWS Auto Scaling](https://aws.amazon.com/autoscaling/) - monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost.
 - [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) -  a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
-- [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/) - an online tool that provides you real time guidance to help you provision your resources following AWS best practices.
-- [AWS Well-Architected Tool](https://aws.amazon.com/well-architected-tool/) - helps you review the state of your workloads and compares them to the latest AWS architectural best practices.
-- [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) - a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account.
+- [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/) - An online tool that provides you real time guidance to help you provision your resources following AWS best practices.
+- [AWS Well-Architected Tool](https://aws.amazon.com/well-architected-tool/) - Helps you review the state of your workloads and compares them to the latest AWS architectural best practices.
+- [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) - A service that enables governance, compliance, operational auditing, and risk auditing of your AWS account.
 
 <br/>
 

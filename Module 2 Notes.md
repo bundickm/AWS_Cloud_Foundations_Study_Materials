@@ -122,11 +122,9 @@
 
 #### Tools
 
-- **AWS Budgets:** Gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. You can also use AWS Budgets to set reservation utilization or coverage targets and receive alerts when your utilization drops below the threshold you define.
+- **AWS Budgets:** It gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. You can also use it to set reservation utilization or coverage targets and receive alerts when your utilization drops below the threshold you define.
 - **AWS Cost and Usage Report:** Tracks your AWS usage and provides estimated charges associated with your account.
 - **AWS Cost Explorer:** Visualize, understand, and manage AWS costs and usage over time.
-
-*Recommended to watch the `Module 2: AWS Billing & Cost Management` and `Module 2: AWS Billing & Cost Management Console Demonstration` videos.*
 
 <br/>
 

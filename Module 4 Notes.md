@@ -31,7 +31,7 @@ AWS security is divided by part of the cloud: customers are responsible for secu
 - Applications - Passwords, role-based access, etc.
 - Security group configuration
 - OS or host-based firewalls - Including intrusion detection or prevention systems
-- Networkconfigurations
+- Network configurations
 - Account management - Login and permission settings for each user
 
 ### **AWS Security**
@@ -61,6 +61,7 @@ Software as a service (SaaS)
 - Licensed on a subscription model or pay-as-you-go basis.
 - Services are typically accessed via web browser, mobile app, or application programming interface (API)
 - Customers do not need to manage the infrastructure that supports the service
+
 <br/>
 
 ## Section 2: Identity and Access Management (IAM)
@@ -113,6 +114,8 @@ AWS Identity and Access Management (IAM) can be used to:
 - Different from an IAM user: Not uniquely associated with one person, intended to be assumable by a person, application, or service
 - Role provides temporary security credentials
 
+**Principle of Least Privilege:** The practice of limiting access rights for users to the bare minimum permissions they need to perform their work. Under POLP, users are granted permission to read, write or execute only the files or resources they need to do their jobs
+
 <br/>
 
 ## Section 3: Securing a New AWS Account
@@ -145,7 +148,7 @@ Security Features of AWS Organizations:
 
 - Group AWS accounts into organizational units (OUs) and attach different access policies to each OU.
 - Integration and support for IAM. Permissions to a user are the intersection of what is allowed by AWS Organizations and what is granted by IAM in that account.
-- Use service control policiesto establish control over the AWS services and API actions that each AWS account can access 
+- Use service control policies to establish control over the AWS services and API actions that each AWS account can access
 
 #### Service Control Policies
 
@@ -182,7 +185,7 @@ Security Features of AWS Organizations:
 
 ### **Data in Transit**
 
-- Data in transit = data moving across a network
+- Data in transit = Data moving across a network
 - Transport Layer Security (TLS) — formerly SSL, is an open standard protocol. AWS Certificate Manager provides a way to manage, deploy, and renew TLS or SSL certificates
 - Secure HTTP (HTTPS) creates a secure tunnel.
 

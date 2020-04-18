@@ -48,7 +48,7 @@ Amazon EBS enables you to create individual storage volumes and attach them to a
 
 Snapshots
 
-- Point-in-time snapshots
+- Point-in-time images
 - Recreate a new volume at any time
 - Added cost of Amazon EBS snapshots to Amazon S3 is per GB-month of data stored
 

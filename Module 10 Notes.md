@@ -5,7 +5,8 @@
 ## Objectives / Topics
 
 - Indicate how to distribute traffic across Amazon Elastic Compute Cloud (Amazon EC2) instances by using Elastic Load Balancing
-- Identify how Amazon CloudWatch enables you to monitor AWS resources and applications in real time•Explain how Amazon EC2 Auto Scaling launches and releases servers in response to workload changes
+- Identify how Amazon CloudWatch enables you to monitor AWS resources and applications in real time
+- Explain how Amazon EC2 Auto Scaling launches and releases servers in response to workload changes
 - Perform scaling and load balancing tasks to improve an architecture
 
 ## Labs / Activities
@@ -21,7 +22,7 @@ Elastic Load Balancing distributes incoming application or network traffic acros
 
 ### **Types of Load Balancers**
 
-| Application Load Balancer                                                                                                                                                                                 | Network Load Balancer                                                                                                                                                                                           | Classic Load Balance (Previous Generation)            |
+| Application Load Balancer                                                                                                                                                                                 | Network Load Balancer                                                                                                                                                                                           | Classic Load Balancer (Previous Generation)            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | Load balancing of HTTP and HTTPS traffic                                                                                                                                                                  | Load balancing of TCP, UDP, and TLS traffic where extreme performance is required                                                                                                                               | Load balancing of HTTP, HTTPS, TCP, and SSL traffic   |
 | - Routes traffic to targets based on content of request <br/> - Provides advanced request routing to targeted at the delivery of modern application architectures, including microservices and containers | - Routes traffic to targets based on IP protocol data <br/> - Can handle millions of requests per second while maintaining ultra-low latencies <br/> - Optimized to handle sudden and volatile traffic patterns | Load balancing across multiple EC2 instances          |
